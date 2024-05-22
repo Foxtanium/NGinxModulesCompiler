@@ -8,10 +8,19 @@ nginx_binary_modules_location=/etc/nginx/modules
 
 ## End of modifieable UwU
 
-echo "--------------------------"
-echo "Nginx module installer UwU"
-echo "by @FoxieFlakey for FJOX"
-echo "--------------------------"
+echo "-------------------------------------------------------------"
+echo "                 Nginx Module Compiler V2"
+echo "               by @FoxieFlakey for Foxtanium"
+echo "             Published and edited by @Fjox at"
+echo "      https://github.com/Foxtanium/NGinxModuleCompiler"
+echo "-------------------------------------------------------------"
+echo ""
+echo "We expect you to already have NGinx installed otherwisethe script doesnt work"
+echo ""
+neofetch
+echo ""
+echo "Installing dependencies if needed."
+sudo apt install libpcre2-dev libpcre3-dev gcc git
 
 nginx_binary_modules_location=$(realpath "$nginx_binary_modules_location")
 nginx_location=$(realpath "$nginx_location")
@@ -46,7 +55,7 @@ if [ "x$updateNginx" == "xyes" ]; then
   echo $nginx_version > $nginx_location/.nginx_version_uwu
 fi
 
-echo "Paste github links here and then do Ctrl+D"
+echo "Paste github links here, then press Ctrl+D when done."
 
 location=0
 args=""
