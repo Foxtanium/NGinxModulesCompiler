@@ -10,6 +10,7 @@ nginx_binary_modules_location=/etc/nginx/modules
 
 echo "--------------------------"
 echo "Nginx module installer UwU"
+echo " by @FoxieFlakey for FJOX"
 echo "--------------------------"
 
 nginx_binary_modules_location=$(realpath "$nginx_binary_modules_location")
