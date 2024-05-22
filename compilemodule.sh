@@ -76,13 +76,16 @@ fi
 
 bash -c "$commands"
 
-# Do configure
+# Get Dependancies
+echo "Downloading Dependancies"
 cd "$nginx_location/"
 cd ../
 git clone git://git.openssl.org/openssl.git
 wget https://www.zlib.net/zlib-1.3.1.tar.gz
 tar -xzvf zlib-1.3.1.tar.gz
 mv zlib-1.3.1 zlib
+
+# Do configure
 cd "$nginx_location/"
 
 cmd="./configure --with-compat --with-openssl=../openssl --with-zlib=../zlib $args"
