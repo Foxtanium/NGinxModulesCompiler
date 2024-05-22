@@ -81,7 +81,7 @@ cd "$nginx_location/"
 cd ../
 git clone git://git.openssl.org/openssl.git
 wget https://www.zlib.net/zlib-1.3.1.tar.gz
-tar -xzvf zlib.tar.gz
+tar -xzvf zlib-1.3.1.tar.gz
 mv zlib-1.3.1 zlib
 cd "$nginx_location/"
 
