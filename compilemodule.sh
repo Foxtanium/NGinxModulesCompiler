@@ -20,7 +20,7 @@ echo ""
 neofetch
 echo ""
 echo "Installing dependencies if needed."
-sudo apt install libpcre2-dev libpcre3-dev gcc git -y
+sudo apt install libpcre2-dev libpcre3-dev gcc git make -y
 
 nginx_binary_modules_location=$(realpath "$nginx_binary_modules_location")
 nginx_location=$(realpath "$nginx_location")
