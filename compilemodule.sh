@@ -11,7 +11,7 @@ nginx_binary_modules_location=/etc/nginx/modules
 echo "-------------------------------------------------------------"
 echo "                 Nginx Module Compiler V2"
 echo "               by @FoxieFlakey for Foxtanium"
-echo "             Published and edited by @Fjox at"
+echo "              Published and edited by @Fjox at"
 echo "      https://github.com/Foxtanium/NGinxModuleCompiler"
 echo "-------------------------------------------------------------"
 echo ""
