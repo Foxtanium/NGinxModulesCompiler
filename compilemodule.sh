@@ -55,7 +55,7 @@ if [ "x$updateNginx" == "xyes" ]; then
   echo $nginx_version > $nginx_location/.nginx_version_uwu
 fi
 
-echo "Paste github links here, then press Ctrl+D when done."
+echo "Paste github links here, then press Ctrl+D twice when done."
 
 location=0
 args=""
