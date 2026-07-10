@@ -79,7 +79,7 @@ bash -c "$commands"
 # Do configure
 cd "$nginx_location/"
 
-cmd="./configure --with-openssl=/usr/lib/ssl --with-compat $args"
+cmd="./configure --with-http_ssl_module --with-compat $args"
 $cmd
 
 # Do make
